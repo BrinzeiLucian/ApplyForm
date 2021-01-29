@@ -1,0 +1,98 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- BROWSER TITLE -->
+    <title id="webTitle">UniApply</title>
+</head>
+<body>
+    <!-- web title -->
+    <h1 id="title">UniApply</h1>
+    <p id="description">Your online world-wide university appliance portal</p>
+    <div id="body">
+    <form id="survey-form">
+        <!-- NAME -->
+        <label id="name-label" for="name">
+        <label id="labelName">Enter your name:</label><label id="star1">*</label>
+        <br>
+        <input type="text" id="name" placeholder="John Doe" required>
+        <br><br>
+        </label>
+        <!-- MAIL -->
+        <label id="email-label" for="email">
+        <label id="labelMail">Enter your email:</label><label id="star1">*</label> 
+        <br>
+        <input id="email" type="email" placeholder="JohnDoe@gmail.com" pattern="[^ @]*@[^ @]*" required>
+        <br><br>   
+        </label>
+           <!-- AGE -->
+        <label id="number-label" for="number">
+        <label id="labelAge">Enter your age:</label><label id="star1">*</label> 
+        <br>
+        <input type="number" id="age" placeholder="22" min="0" max="99" required>
+        <br><br>   
+        </label>
+        <!-- GENDER -->
+        <label id="labelGender">Select your gender:</label><label id="star1">*</label>
+        <br>
+        <form id="genderSelection" action="" aria-required="true">
+            <input type="radio" name="genderGroup" id="Male" value="Male">Male<br>
+            <input type="radio" name="genderGroup"id="Female" value="Female">Female<br>
+            <input type="radio" name="genderGroup" id="Transgender" value="Transgender">Transgender<br>
+            <input type="radio" name="genderGroup" id="Binary" value="Non-Binary">Non-Binary<br>
+            <input type="radio" name="genderGroup" id="labelOtherGender">Other</label><br>
+        </form>
+        <!-- UNIVERSITY -->
+        <label id="labelUni">Enter your desired University:</label> <label id="star1">*</label>
+        <br>
+        <input type="text" id="university" placeholder="Babeș-Bolyai" required>
+        <br><br>
+        <!-- LEVEL -->
+        <label id="labelSelect">Enter your desired education level:</label><label id="star1">*</label><br>
+        <select type="dropdown" id="level" placeholder="Select your education level" required>
+            <br><br>
+            <option value="Bachelor">Bachelor</option>
+            <option value="Master">Master</option>
+            <option value="Doctorate">Doctorate</option>
+        </select><br><br>
+        <!-- DEGREE -->
+        <label id="labelSelect">Enter your desired degree:</label><label id="star1">*</label>
+        <br>
+        <input type="" id="degree" placeholder="Psychology" required> 
+        <br><br>
+    <!-- FIRST DESC -->
+    <label id="labelMotiveDescription">Use this section to tell the University about the reasons why you want to apply:</label>
+    <label id="star1">*</label>
+    <br>
+    <div id="motiveDescription">
+    <textarea name="motiveDescription" id="motiveDescription" rows="3" cols="60" required title="Describe your reasons for applying in a few words" placeholder="Describe your reasons for applying in a few words" onKeyDown="textCounter(document.formacha.description,160)" onKeyUp="textCounter(document.formacha.description, 160)" required></textarea>
+    <div>
+    <br>
+    <!-- SECOND DESC -->
+    <label id="labelSelfDescription">Use this section to tell the University about your acomplishments:</label><label id="star1">*</label> 
+    <br>
+    <div id="selfDescription">
+    <textarea name="selfDescription" id="selfDescription" rows="3" cols="60" required title="Describe yourself in a few words" placeholder="Describe yourself in a few words" onKeyDown="textCounter(document.formacha.description,160)" onKeyUp="textCounter(document.formacha.description, 160)" required></textarea>
+    </div>
+    <br>
+    <!-- FILE ATTACH -->
+        <form id="files" action="/action_page.php">
+            <label for="files">Upload the necessary documents:</label><label id="star1">*</label>
+            <br>
+            <input type="file" id="files" name="files" multiple required>
+            <br><br>
+    <!-- SUBMIT -->
+            <input id="submitButton" name="Submit" type="submit" required>
+        </form>
+        <!-- Dsiclaimers -->
+        <label id="disclaimerLabel">Terms and Conditions Notice:</label>
+        <form id="Dsiclaimers">
+            <input type="checkbox" name="Dsiclaimers" id="Dsiclaimer1" value="1" required> Check here to indicate that you have read <a href="terms.html">the terms and conditions</a> of UniApply</input><label id="star1">*</label><br>
+            <input type="checkbox" name="Dsiclaimers" id="Dsiclaimer2" value="2" required> By submiting this form the user agrees with <a href="terms.html">the terms and conditions</a></input><label id="star1">*</label>
+        </form>
+    </form>
+    </div>
+    </body>
+</html>
