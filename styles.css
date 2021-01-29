@@ -1,0 +1,114 @@
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif;
+}
+#description{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+#star1{
+    color: red;
+    opacity: 50%;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1609676678682-c0b63014e537?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2135&q=80");
+}
+#body{
+    background-color: #e0edff;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: justify;
+    opacity:80%;
+}
+#bodyterms
+{
+    background-color: #e0edff;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: justify;
+    opacity:80%;
+}
+
+#TermsTtile{
+font-size: large;
+font-family: sans-serif;
+}
+
+#conditionsText{
+font-family: sans-serif;
+text-align: justify;
+}
+
+#mainPage{
+    
+}
+
+#name{
+    width: 600px;
+    padding:10px;
+    border-radius:10px;
+}
+#email{
+    width: 600px;
+    padding:10px;
+    border-radius:10px;
+}
+#university{
+    width: 600px;
+    padding:10px;
+    border-radius:10px;
+}
+#degree{
+    width: 600px;
+    padding:10px;
+    border-radius:10px;
+}
+#level{
+    width: 600px;
+    padding:10px;
+    border-radius:10px;
+    align-self: justify;
+}
+
+#motiveDescription{
+    width: 500px;
+    padding:10px;
+    border-radius:10px;
+}
+#selfDescription{
+    width: 500px;
+    padding:10px;
+    border-radius:10px;
+}
+
+#submitButton{
+    width: 600px;
+    padding:10px;
+    font-size: larger;
+    border-radius:10px;
+    border: 30px, black;
+    margin-top: 2%;
+    color: black;
+    background-color: #e0edff;
+}
+
+#Dsiclaimer1{
+font-size: smaller;
+font-variant-caps: all-petite-caps;
+font-weight: lighter;
+font-size: 15vw;
+}
+#Dsiclaimer2{
+font-size: smaller;
+font-variant-caps: all-petite-caps;
+font-weight: lighter;
+font-size: 15vw;
+}
